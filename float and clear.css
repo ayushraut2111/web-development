@@ -1,0 +1,43 @@
+body{
+    background-image: url(b.jpg);
+    background-position: center;
+}
+#mainclass{
+    border: 6px solid purple;
+    background-color: rgb(218, 231, 231);
+}
+#heading{
+    width: 160px;
+    margin:auto;
+    border:2px solid brown;
+    background-color: rgb(238, 238, 218);
+    
+}
+.sameclass{
+    border: 6px solid red;
+    margin: 3px;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+    background-color: rgb(193, 181, 204);
+}
+#fruit{
+    float: left;
+    width: 48%;
+}
+#vegetables{
+    float:left;
+    width: 48%;
+}
+#juices{
+clear:both;
+}
+#colddrink{
+    clear:both;
+}
+.abc{
+    margin:auto;
+    width: 85px;
+    border: 2px solid black;
+    padding-left: 10px;
+}

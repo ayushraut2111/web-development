@@ -1,0 +1,38 @@
+body{
+    background-color: beige;
+}
+#navid{
+    background-color:black;
+    overflow: auto;
+    border-radius: 70px;
+}
+.navbars{
+    float:left;
+    margin: 9px;
+    margin-left: 20px;
+    padding: 5px;
+    background-color:rgb(40, 57, 214);
+    border-radius: 18px;
+}
+.navbars a{
+    text-decoration: none;
+    color:black;
+}
+.navbars a:hover{
+    color: red;
+    background-color: aqua;
+}
+
+#sname{
+    margin-top: 6px;
+     margin-left:980px; 
+    padding: 7px;
+    border-radius: 20px;
+}
+img{
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-left:52px;
+   height: 17cm;
+   width: 37cm;
+}

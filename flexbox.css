@@ -1,0 +1,29 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+h1{
+    
+    text-align: center;
+}
+.container{
+    display: flex;
+    background-color: rgb(197, 217, 235);
+    padding: 10px;
+    justify-content:space-around;
+    border-radius: 30px;
+
+}
+.items{
+    margin: 2px;
+    background-color: rgb(227, 255, 127);
+    text-align: center;
+    width: 3cm;
+    border: 2px solid greenyellow;
+    padding: 4px;
+    border-radius: 30px;
+}
+#sbox{
+    border-radius: 25px;
+    text-align: center;
+}

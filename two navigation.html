@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 navigation bars</title>
+    <style>
+        #navigation{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            width: 25cm;
+        }
+        #mainnav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .portion{
+            border-radius: 1cm;
+            background-color: aqua;
+        }
+        #p1{
+            border-radius: 0%;
+            background-color:white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="mainnav">
+            <div class="portion" id="p1">
+                <p class="para" id="para1">hello</p>
+            </div>
+            <div class="portion" id="p2">
+                <ul id="navigation">
+                    <li class="contents" id="c1">Home</li>
+                    <li class="contents" id="c2">search</li>
+                    <li class="contents" id="c3">About</li>
+                    <li class="contents" id="c4">contents</li>
+                    <li class="contents" id="c5">login</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text shadow</title>
+    <style>
+        body{
+            background-color: rgb(224, 245, 236);
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        .main{
+            display: flex;
+        }
+        .box{
+            border: 2px solid red;
+            background-color: black;
+            color: blue;
+            margin: 2px;
+            padding: 2px;
+            box-shadow: 4px 4px  2px 3px green, -4px -4px green;
+            text-shadow: 2px 2px white;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is shadow</h1>
+    <div class="main">
+        <div class="box" id="box-1">
+            <h2>
+                name
+            </h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, modi! Corporis, quasi? Similique, corporis inventore!</p>
+        </div>
+        <div class="box" id="box-2">
+            <h2>
+                last name
+            </h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, modi! Corporis, quasi? Similique, corporis inventore!</p>
+        </div>
+        <div class="box" id="box-3">
+            <h2>full name</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, modi! Corporis, quasi? Similique, corporis inventore!</p>
+        </div>
+    </div>
+
+</body>
+</html>

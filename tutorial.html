@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTKIT admission form</title>
+    <style>
+        h1{
+            background-position: center 0;
+        }
+        body{
+            background-image: url(https://images.unsplash.com/photo-1565022987248-f4ffe001d362?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+            background-size: 100%;
+        }
+        .container{
+            overflow:auto;
+        }
+        #img_id{
+            float:left;
+            margin-bottom: 7px;
+            border-radius: 200%;
+        }
+    h1{
+        float: left;
+        width: 50%;
+        margin-left: 3cm;
+        text-align: center;
+    }
+        
+    </style>
+</head>
+<body>
+    <div
+     class="container">
+        <img id="img_id" src="download.jpg" alt="clg_img">
+        <h1  ><ins>Admission-Form</ins></h1>
+
+    </div>
+    
+    <form action="admission.php">
+        <label for="name"><B>Name:-</B></label>
+        <input type="text" name="myname" id="name">
+        <br><br>
+        <label for="dob"><B>Date of birth:-</B></label>
+        <input type="date" name="mybirth" id="dob">
+        <br><br>
+        <label for="age"><B>Age:-</B></label>
+        <input type="number" name="myage" id="age">
+        <br><br>
+        <label for="gen"><b>Gender:- </b></label>
+       male- <input type="radio" name="mygender" id="gen">female- <input type="radio" name="mygender" id="gen">other- <input type="radio" name="mygender" id="gen">
+       <br><br>
+       <label for="em"><B>Email-id:-</B></label>
+        <input type="email" name="mymail" id="em">
+        <br><br>
+        <label for="mname"><B>Mother's name:-</B></label>
+        <input type="text" name="mymother" id="mname">
+        <br><br>
+        <label for="fname"><B>Father's name:-</B></label>
+        <input type="text" name="myfather" id="fname">
+        <br><br>
+        <label for="no"><B>phone number:-</B></label>
+        <input type="text" name="mynumber" id="no">
+        <br><br>
+        <label for="class"><b>In which branch you want to take admission:-</b></label>
+        <select name="myclass" id="class">
+            <option value="9th">CSE</option>
+            <option value="10th">Mech</option>
+            <option value="11th">Civil</option>
+            <option value="12th">Electrical</option>
+        </select>
+        <br><br>
+        <label for="lang"><B>Language spoken:-<br></B></label>
+        Hindi-<input type="checkbox" name="mylang" id="lang" selected>
+        English-<input type="checkbox" name="mylang" id="lang">
+        others-<input type="checkbox" name="mylang" id="lang">
+        <br><br>
+        <label for="summary"><B>Tell me about yourself:-<br></B></label>
+        <textarea name="about" id="summary" rows="10" cols="70"></textarea>
+        <br><br>
+        <label for="sure"><B>Are you sure you want to submit:-</B></label>
+        <input type="checkbox" name="mysure" id="sure" selected>
+        <br><br>
+        <input type="submit" value="submit now">
+
+        <input type="reset" value="reset">
+        
+    </form>
+</body>
+</html>

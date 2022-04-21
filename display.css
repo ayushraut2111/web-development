@@ -1,0 +1,16 @@
+.main{
+    border:2px solid red;
+    padding: 2%;
+}
+.mainh{
+  
+    width:fit-content;
+    margin: auto;
+}
+.heading{
+    border: 2px solid brown;
+    margin: 2px;
+    width:30%;
+    display: inline-block;
+
+}

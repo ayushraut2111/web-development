@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav content.css">
+    
+    <title>Nav click</title>
+</head>
+<body>
+    <nav class="mainnav">
+            <li class="nav" id="nav1">Home</li>
+            <li class="nav" id="nav2">Contacts</li>
+            <li class="nav" id="nav3">Redirect</li>
+            <li class="nav" id="nav4">About</li>
+            <input type="text" class="nav" id="search" placeholder="         Type to search">
+        </nav>
+        <div class="mbody">
+            <p class="para" id="para1">Hello i am Home</p>
+            <p class="para" id="para2">Hello i am contacts</p>
+            <p class="para" id="para3">Hello i am redirect</p>
+            <p class="para" id="para4">Hello i am About</p>
+            <script src="nav content.js"></script>
+        </div>
+</body>
+</html>
+
+
+
+<!-- CSS -->
+
+<!-- body{
+    background-color: black;
+}
+.nav{
+    list-style: none;
+    background-color: aquamarine;
+    padding:10px;
+    border-radius: 1cm;
+    cursor:pointer;
+}
+.mainnav{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 1cm;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+#search{
+    background-color:white;
+    display: none;
+    display: block;
+    cursor:auto;
+}
+.mbody{
+    margin: auto;
+    width: fit-content;
+}
+.para{
+    color: white;
+    font-size: 40px;
+    display:none;
+} -->
+
+
+
+
+<!-- javascript -->
+
+<!-- let a=document.getElementById("nav1");
+let an=0;
+let bn=0;
+let cn=0;
+let dn=0;
+a.addEventListener("click",function xyz()
+{
+    if(bn==0&&dn==0&&cn==0){
+    let a1=document.getElementById("para1");
+    if(an==0)
+    {
+    a1.style.display="block";
+    an=1;
+    }
+    else
+    {
+        a1.style.display="none";
+        an=0;
+    }
+}
+});
+let b=document.getElementById("nav2");
+b.addEventListener("click",function xyz()
+{
+    if(an==0 && cn==0&&dn==0){
+    let b1=document.getElementById("para2");
+    if(bn==0)
+    {
+    b1.style.display="block";
+    bn=1;
+    }
+    else
+    {
+        b1.style.display="none";
+        bn=0;
+    }
+}
+
+});
+let c=document.getElementById("nav3");
+
+c.addEventListener("click",function xyz()
+{
+    if(an==0 && bn==0&&dn==0){
+    let c1=document.getElementById("para3");
+    if(cn==0)
+    {
+    c1.style.display="block";
+    cn=1;
+    }
+    else
+    {
+        c1.style.display="none";
+        cn=0;
+    }
+}
+
+});
+let d=document.getElementById("nav4");
+
+d.addEventListener("click",function xyz()
+{
+    if(an==0 && bn==0&&cn==0){
+    let d1=document.getElementById("para4");
+    if(dn==0)
+    {
+    d1.style.display="block";
+    dn=1;
+    }
+    else
+    {
+        d1.style.display="none";
+        dn=0;
+    }
+}
+
+}); -->

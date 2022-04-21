@@ -1,0 +1,68 @@
+body{
+    background-image:url("s.png") ;
+   
+}
+#img{
+    height: 1.5cm;
+    width: 1.5cm;
+    border-radius: 1cm;
+}
+.contents{
+    list-style: none;
+    color: aqua;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid orange;
+    border-radius: 1cm;
+    padding-left: 7px;
+}
+#search{
+    border-radius: 2cm;
+    width: 2cm;
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    width: 17cm;
+}
+#rule{
+    color: rgb(102, 192, 219);
+    border: 2px solid rebeccapurple;
+    margin-top: 0.5cm;
+    border-radius: 1cm;
+}
+form{
+    background-color: rgb(216, 176, 214);
+    /* background-color: rgb(47, 41, 65); */
+    border-radius: 1cm;
+    padding: 1cm;
+    margin: 5px;
+}
+.input1{
+    margin: 1cm;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+textarea{
+    border-radius: 1cm;
+    background-color: rgb(216, 176, 214);
+    padding: 2px;
+    margin: 5px;
+}
+.para{
+    color: aquamarine;
+    text-align: center;
+}
+.section{
+    border: 4px solid purple;
+    border-radius: 1cm;
+}
+h3{
+    text-align: center;
+    color: aliceblue;
+    font-size: larger;
+}
