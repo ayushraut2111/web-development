@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown hover</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        .list{
+            display: flex;
+            justify-content:left;
+            background-color: blue;
+            border-radius: 15px;
+        }
+        .navc{
+            margin-left:2cm;
+            padding-bottom: 10px;
+            padding-top: 10px;
+        }
+        .inner{
+            display: none;
+            position: absolute;
+            background-color: aqua;
+            width: 2cm;
+            margin-top:10px ;
+            padding-right: 60px;
+            padding-top: 10px;
+        }
+        #navc3:hover .inner{
+            display:block;
+        }
+        .navc:hover{
+            background-color: red;
+        }
+        #navc3 a{
+            float:none;
+            text-decoration: none;
+            display: block;
+        }
+        .inner:hover .main{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="list">
+            <li class="navc" id="navc1">Home</li>
+            <li class="navc" id="navc2">News</li>
+            <li class="navc" id="navc3">Dropdown
+               <div class="inner">
+                   <a href="" class="main">Link1</a>
+                   <a href="" class="main">Link2</a>
+                   <a href="" class="main">Link3</a>
+               </div>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
