@@ -1,0 +1,33 @@
+.navi{
+    width: 15em;
+    height: 4cm;
+    float:right;
+}
+.navtext{
+    color:black;
+    display: inline-block;
+    margin: 0.5em;
+}
+#ima{
+    height: 2.5em;
+    border-radius: 9em;
+    width: 2.5em;
+    margin-left: 9em;
+    margin-top: -3em;
+}
+.main{
+    background-color: red;
+    position: relative;
+}
+.child{
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  margin-top: 8cm;
+}
+input{
+    width: 12cm;
+    height: 1cm;
+    margin-right: 7cm;
+    border-radius: 1cm;
+}
